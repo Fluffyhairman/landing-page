@@ -1,11 +1,16 @@
-.header-logo{
+img{
     height: auto;
-    width: 100px;
+    width: 20px;
 }
+
 body{
     display: flex;
 }
 
 .header{
-    display:flex;
+    display: flex;
+}
+
+.links{
+    display: flex;
 }
