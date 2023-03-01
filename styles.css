@@ -1,16 +1,57 @@
 img{
     height: auto;
-    width: 20px;
+    width: 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 body{
     display: flex;
+    flex-direction: column;
+    all: unset;
 }
 
 .header{
     display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: 0px;
+    color: #f9faf8;
+    padding: 10px;
+    gap: 20px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
 }
 
 .links{
+    margin: 0px;
     display: flex;
+    gap: 20px;
+    font-size: 12px;
+    
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup{
+    max-width: 100px;
 }
