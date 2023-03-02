@@ -18,6 +18,7 @@ body{
     flex-direction: column;
     all: unset;
 }
+/* top portion of website */
 
 .header{
     display: flex;
@@ -26,13 +27,23 @@ body{
     margin: 0px;
     color: #f9faf8;
     padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     gap: 20px;
+    padding-bottom: 50px;
 }
 
+/* top portion of the header */
 .header-top{
     display: flex;
     justify-content: space-between;
 }
+
+.header-logo{
+    height: auto;
+    width: 25px;
+}
+
 
 .links{
     margin: 0px;
@@ -41,17 +52,52 @@ body{
     font-size: 12px;
     
 }
-
+/* bottom portion of the header */
 .header-bottom{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.image{
+    /* height: auto; */
+    flex: 1 1 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-left{
     display: flex;
     flex-direction: column;
+    flex-grow: 0;
+    flex-basis: 365px;;
+    gap: 5px;
 }
 
 .signup{
-    max-width: 100px;
+    border: none;
+    max-width: 125px;
+    margin-top: 5px;
+    background-color: rgb(70 116 245);
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 5px;
+    font-size:  18px;
+    font-weight: bold;
+}
+
+.main-title{
+    font-size: 18px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* middle content portion of website */
+
+.body-information{
+    
 }
