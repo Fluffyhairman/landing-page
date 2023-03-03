@@ -30,7 +30,7 @@ body{
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
-    gap: 20px;
+    gap: 50px;
     padding-bottom: 50px;
 }
 
@@ -171,6 +171,7 @@ body{
 
 .quote{
     flex-wrap: wrap;
+    font-weight: 200;
 }
 
 .attribution{
@@ -198,6 +199,8 @@ body{
 .action-content{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .action-title{
