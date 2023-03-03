@@ -164,12 +164,14 @@ body{
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
     padding: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.quote{
+.quote-content{
     flex-wrap: wrap;
     font-weight: 200;
 }
